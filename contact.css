@@ -1,0 +1,103 @@
+*,*::before,::after{
+  box-sizing: border-box;
+}
+.bulle-icone.jaune {
+  background-color: #FFE700;
+}
+
+
+.bulle-icone-bordure.jaune {
+  background-color: #EE8F00;
+}
+/* Titres */
+.titre {
+  font-size: 2.5rem;
+  margin:  1rem 0 1rem 0;
+  text-align: left;
+  font-weight:bold;
+}
+
+.corps {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.warning{
+  font-weight:bold;
+}
+
+.message {
+  padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+/* Message de succès (vert) */
+.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+/* Message d'erreur (rouge) */
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+
+
+/* Formulaire */
+
+form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+form input, form textarea {
+  width: 55rem;
+  padding: 0.8rem;
+  margin-bottom: 1.5rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+.radio-group label{
+  font-size: 1rem;
+  font-weight: normal;
+}
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  gap: 0.15rem;
+  margin-bottom: 1.5rem;
+  width: 55rem;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 55rem;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+.asterix{
+  color:#f50019;
+}
+

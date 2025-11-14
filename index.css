@@ -1,0 +1,28 @@
+
+.article{
+  display: flex;
+  text-align: left; /* mettre le texte à gauche*/
+  flex-direction: column; /* pour mettre les trois articles verticalement*/
+  width: 50rem;  /* taille des articles*/
+  border:0.5rem;  /* bord des boîtes*/
+  box-shadow:0 0.1rem 0.1rem #3e3e3e;  /* ombre en dessous de la boîte*/
+  margin-bottom:2rem; /* écart entre les boîtes*/
+}
+.article img{
+  height:30rem; /* taille des images*/
+  padding: 1rem;
+  object-fit: cover; 
+}
+.article-text{
+  padding:3rem;
+} 
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold; /*texte en gras*/
+  margin-bottom: 1rem;
+ }
+
+ .article-text p{
+  line-height: 2rem;  /* écart entre les lignes*/
+ }

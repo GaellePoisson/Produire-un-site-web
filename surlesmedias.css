@@ -1,0 +1,52 @@
+
+
+.bulle-icone.rouge {
+  background-color: #EB0706;
+}
+
+.bulle-icone-bordure.rouge {
+  background-color: #a50253;
+}
+
+
+.video {
+  font-weight : normal ;
+  color:#030303 ; 
+}
+
+
+iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9; 
+  border: none; 
+  padding: 0.313rem; 
+  box-sizing: border-box; 
+}
+
+
+.grille-videos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.3rem;
+  justify-items: center;
+  align-items: center;
+  width: 90%;
+  max-width: 75rem; 
+  margin: 0 auto;
+}
+
+
+.video iframe {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
