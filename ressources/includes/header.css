@@ -1,0 +1,35 @@
+
+/* Menu de navigation principal */
+.navigation-principale {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  
+  .navigation-principale ul li {
+    margin-right: 1.25rem; 
+  }
+  
+  .navigation-principale ul li a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 1rem; 
+    padding: 0.625rem; 
+    transition: background-color 0.3s; 
+  }
+
+  
+  .navigation-principale ul li a.active {
+    background-color: black; 
+    color: #ef509f; 
+    border-radius: 5px; 
+  }
+  
+  /* Effet au survol des liens */
+  .navigation-principale ul li a:hover {
+    background-color: white; 
+    color: #ef509f; 
+  }

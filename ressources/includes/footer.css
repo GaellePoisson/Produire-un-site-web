@@ -1,0 +1,71 @@
+/* Styliser le footer pour occuper toute la largeur de la page */
+footer {
+  width: 100%;
+  padding: 1.25rem 0; /* Espace autour du footer */
+  display: flex;
+  justify-content: center; /* Centrer le contenu */
+  align-items: center;
+}
+
+/* Conteneur du footer */
+.footer-container {
+  display: flex;
+  flex-direction: column; /* Permet d'organiser les sections en colonne */
+  align-items: center; 
+  text-align: center;
+  max-width: 60rem; /* Limite la largeur du footer */
+  width: 100%;
+}
+
+/* Contenu principal (logo + texte) */
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Permet le retour à la ligne si l'espace est insuffisant */
+  gap: 1.25rem; /* Espacement entre le logo et le texte */
+}
+
+/* Logo de l'université */
+.logo img {
+  max-width: 6rem; /* Taille du logo */
+  height: auto;
+}
+
+/* Texte du pied de page */
+.footer-text {
+  font-size: 0.875rem;
+  color: #666;
+  max-width: 40rem; /* Largeur max pour garder une bonne lisibilité */
+}
+
+.footer-text p {
+  margin: 0.5rem 0; 
+}
+
+/* Liens du footer */
+.footer-text a {
+  color: #0040ff;
+  text-decoration: underline;
+  margin: 0 0.5rem;
+}
+
+/* Effet au survol */
+.footer-text a:hover {
+  text-decoration: none;
+}
+
+/* Bouton "Remonter" */
+.footer-link {
+  margin-top: 1rem;
+}
+
+.footer-link a {
+  font-weight: bold;
+  color: #0040ff;
+  text-decoration: underline;
+}
+
+.footer-link a:hover {
+  text-decoration: none;
+}
